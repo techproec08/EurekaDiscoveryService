@@ -1,0 +1,9 @@
+add 
+eureka-server
+spring -web dependcies with below properties 
+
+server.port=8030
+spring.application.name=disc
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+ureka.client.serviceUrl.defaultZone=http://localhost:8030
